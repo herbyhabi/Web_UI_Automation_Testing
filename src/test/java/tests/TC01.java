@@ -40,28 +40,28 @@ public class TC01 extends TestBase {
 
     }
 
-    @Test
-    public void testMockMethod(){
-        List<String> list = mock(List.class);
-        Mockito.when(list.get(0)).thenReturn("hellow world");
-        String result = list.get(0);
-        System.out.println(result);
-
-        verify(list).get(0);
-        Assert.assertEquals("hellow world", result);
-    }
-
-    @Test
-    public void verify_behaviour(){
-        //模拟创建一个List对象
-        List mock = mock(List.class);
-        //使用mock的对象
-        mock.add(1);
-        mock.clear();
-        //验证add(1)和clear()行为是否发生
-        verify(mock).add(1);
-        verify(mock).clear();
-    }
+//    @Test
+//    public void testMockMethod(){
+//        List<String> list = mock(List.class);
+//        Mockito.when(list.get(0)).thenReturn("hellow world");
+//        String result = list.get(0);
+//        System.out.println(result);
+//
+//        verify(list).get(0);
+//        Assert.assertEquals("hellow world", result);
+//    }
+//
+//    @Test
+//    public void verify_behaviour(){
+//        //模拟创建一个List对象
+//        List mock = mock(List.class);
+//        //使用mock的对象
+//        mock.add(1);
+//        mock.clear();
+//        //验证add(1)和clear()行为是否发生
+//        verify(mock).add(1);
+//        verify(mock).clear();
+//    }
 
 
 }

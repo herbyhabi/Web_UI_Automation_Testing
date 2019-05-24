@@ -2,7 +2,6 @@ package utils;
 import com.beust.jcommander.ParameterException;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
-import jdk.nashorn.internal.ir.FunctionCall;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
